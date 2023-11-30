@@ -1,0 +1,31 @@
+header{
+    background-color: mediumaquamarine;
+    padding: 10px 15px;
+    margin: -0.5%;
+    display: flex;
+}
+.router-outlet{
+    min-height: 400px;
+    padding: 30px;
+}
+footer{
+    display: flex;
+    background-color: rgb(53, 138, 109);
+    color: white;
+    padding: 10px 10px;
+    margin: -0.5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+nav{
+    margin-top: 30px;
+    margin-left: 40px;
+}

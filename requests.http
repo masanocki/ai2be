@@ -1,0 +1,12 @@
+
+### PUT update task
+PUT http://localhost:48389/todos/4
+Content-Type: application/json
+
+{
+    "title": "Nowe zadanie",
+    "deadline": "2024-01-20",
+    "completed": true,
+    "archived": false,
+    "id": 4
+}

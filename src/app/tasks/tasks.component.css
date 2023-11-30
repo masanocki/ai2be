@@ -1,0 +1,71 @@
+.container{
+    width: 700px;
+}
+.task{
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-areas: 'title deadline actions';
+    padding: 10px;
+}
+.task .title{
+    grid-area: title;
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.task .actions{
+    grid-area: actions;
+    color: black;
+}
+.task .actions input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+}
+.task .deadline{
+    grid-area: deadline;
+    font-size: x-large;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.new-task{
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    padding-bottom: 10px;
+}
+
+#title{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.btn, .archive-btn{
+  background-color: darkcyan;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+.archive-btn{
+    margin-top: 10px;
+}
+#deadline{
+    padding: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: darkslategray;
+}
+
+.task.completed{
+    background-color: rgb(191, 252, 191);
+    color: rgb(179, 179, 179);
+}
