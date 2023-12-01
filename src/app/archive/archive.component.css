@@ -33,20 +33,7 @@ h2{
     font-size: 15px;
     padding: 10px;
 }
-.delete-btn{
-  background-color: rgb(139, 9, 0);
-  border-radius: 8px;
-  border-style: none;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 10px;
-}
+
 #deadline{
     padding: 10px;
-}
-.delete-btn:hover,
-.delete-btn:focus {
-  background-color: rgb(90, 8, 8);
 }
